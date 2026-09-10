@@ -1,0 +1,63 @@
+#include<stdio.h>
+int main()
+{
+
+	int urdu,english,math,cs,che,isl,phy;
+	int turdu=100,tenglish=100,tmath=100,tcs=100,tche=100,tisl=50,tphy=100;
+	printf("enter urdu obtained marks.....");
+	scanf("%d",&urdu);
+	printf("enter english obtained marks.....");
+		scanf("%d",&english);
+	printf("enter math obtained marks.....");
+		scanf("%d",&math);
+	printf("enter computer science obtained marks.....");
+		scanf("%d",&cs);
+	printf("enter chemistry obtained marks.....");
+		scanf("%d",&che);
+	printf("enter islamyat obtained marks.....");
+		scanf("%d",&isl);
+	printf("enter physic obtained marks.....");
+		scanf("%d",&phy);
+		int tmarks=turdu+tenglish+tmath+tcs+tche+tisl+tphy;
+		int obmarks=urdu+english+math+cs+che+isl+phy;
+		float per=obmarks/tmarks*100;
+		printf("\n\n");
+		int roll;
+		printf("enter your roll number");
+		scanf("%d",&roll);
+	    printf("\t  \t\t       \t\tsession:2025 (Annual-2)");
+	    printf("\n\n");
+        printf("\t  \t\t             \tDETAILED MARKS CERTIFICATE\n");
+        printf("\t  \t\t            \tRoll No:%d\n",roll);
+        printf("\t  \t\t            \tGroup:computer science\n");
+        printf("\n\n");  
+        printf(" Name:\t        Ahsan Khalid\n");
+        printf(" Father Name:\tMuhammad Khalid\n");
+        printf(" Institute:\tGOVT HIGHIER SECONDERY SCHOOL NO 3 ABBOTTABAD\n");
+        printf("-------------------------------------------------------------------------------------------------------------------\n");
+        printf("\n");                       
+        printf("\t\tSUBJECT\t\t\t\t  TOTAL MARKS\t\t\t\tOBTAINED MARKS");
+        printf("\n\n");
+        printf("-----------------------------------------------------------------------------------------------------------------------\n");
+        printf("\t\tEnglish\t\t\t\t\t%d\t\t\t\t\t%d\n",tenglish,english);
+        printf("-----------------------------------------------------------------------------------------------------------------------\n");
+        printf("\t\tUrdu\t\t\t\t\t%d\t\t\t\t\t%d\n",turdu,urdu);
+        printf("-----------------------------------------------------------------------------------------------------------------------\n");
+        printf("\t\tMath\t\t\t\t\t%d\t\t\t\t\t%d\n",tmath,math);
+        printf("-----------------------------------------------------------------------------------------------------------------------\n");
+        printf("\t\tComputer Science\t\t\t%d\t\t\t\t\t%d\n",tcs,cs);
+        printf("-----------------------------------------------------------------------------------------------------------------------\n");
+        printf("\t\tChemistry\t\t\t\t%d\t\t\t\t\t%d\n",tche,che);
+        printf("-----------------------------------------------------------------------------------------------------------------------\n");
+        printf("\t\tPhysics\t\t\t\t\t%d\t\t\t\t\t%d\n",tphy,phy);
+        printf("-----------------------------------------------------------------------------------------------------------------------\n");
+        printf("\t\tIslamyat\t\t\t\t%d\t\t\t\t\t%d\n",tisl,isl);
+        printf("-----------------------------------------------------------------------------------------------------------------------\n");
+        printf("\t\t\t\t\t\tTotal:  %d\t\t\t\t\t%d",tmarks,obmarks);
+        printf("\n\n");
+        printf("\t  Date:\t11 April 2025\n");
+        printf("\n\n");
+        printf("\tchecked By:---------------\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t-------------------------\n");
+        printf("\t\t\t\t\t\t\t\t\t\t\tController of Examination\n");
+        return 0;
+}
